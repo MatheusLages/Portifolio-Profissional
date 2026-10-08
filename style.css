@@ -382,6 +382,19 @@ img {
     border-color: rgba(250, 204, 21, 0.35);
 }
 
+.imagem-projeto {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    max-height: 350px;
+    object-fit: contain;
+    object-position: left center;
+    margin-top: 16px;
+    border: 1px solid var(--cor-borda);
+    border-radius: 12px;
+}
+
 .link-projeto {
     display: inline-block;
     margin-top: 12px;
