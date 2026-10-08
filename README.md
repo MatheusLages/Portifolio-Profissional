@@ -10,9 +10,9 @@ O site apresenta minha formação acadêmica, áreas de interesse, projetos dese
 
 - Apresentação "Sobre Mim" em português e inglês;
 - Menu de navegação entre as seções;
-- Linha do tempo de projetos com links para o GitHub;
+- Linha do tempo **renderizada dinamicamente com JavaScript**, organizada do primeiro ao último projeto, com descrição, tecnologias conhecidas e links para o GitHub;
 - Experiências profissionais e acadêmicas;
-- Links de contato para e-mail, GitHub e LinkedIn;
+- Links de contato com ícones para e-mail, GitHub e LinkedIn;
 - Formulário com validação básica que abre o aplicativo de e-mail do visitante;
 - Fundo estrelado animado com Canvas em JavaScript;
 - Layout responsivo para computadores e celulares.
@@ -46,6 +46,21 @@ Portifolio-Profissional/
 ├── assets/
 │   ├── foto-principal.jpg
 │   └── foto-secundaria.jpeg
+├── docs/
+│   ├── demonstracoes/
+│   │   ├── portfolio-desktop.png
+│   │   ├── portfolio-mobile.png
+│   │   ├── portfolio-projetos.png
+│   │   ├── portfolio-contato.png
+│   │   └── prova1-diw.png
+│   └── wireframes/
+│       ├── inicio-desktop.svg, inicio-mobile.svg
+│       ├── sobre-desktop.svg, sobre-mobile.svg
+│       ├── projetos-desktop.svg, projetos-mobile.svg
+│       └── contato-desktop.svg, contato-mobile.svg
+├── .github/
+│   ├── scripts/capturar-demonstracoes.cjs
+│   └── workflows/capturar-demonstracoes.yml
 └── README.md
 ```
 
@@ -67,15 +82,50 @@ Não são necessárias variáveis de ambiente, bibliotecas, frameworks ou instal
 
 ## Demonstração
 
-**Portfólio online:** [Acessar o site](https://matheuslages.github.io/Portifolio-Profissional/)
+**Site online:** [Abrir o Portfólio Profissional](https://matheuslages.github.io/Portifolio-Profissional/)
 
-Capturas de tela e GIFs dos demais projetos apresentados poderão ser acrescentados à documentação, conforme solicitado no laboratório.
+As imagens a seguir são capturas reais feitas automaticamente em um navegador Chromium, a partir dos arquivos dos repositórios.
+
+| Portfólio — computador | Portfólio — celular |
+| --- | --- |
+| <img src="docs/demonstracoes/portfolio-desktop.png" alt="Captura real do portfólio no computador" width="480"> | <img src="docs/demonstracoes/portfolio-mobile.png" alt="Captura real do portfólio no celular" width="220"> |
+
+| Projetos | Contato |
+| --- | --- |
+| ![Seção Projetos em funcionamento](docs/demonstracoes/portfolio-projetos.png) | ![Seção Contato em funcionamento](docs/demonstracoes/portfolio-contato.png) |
+
+**Projeto Prova1-DIW — captura real do código HTML/CSS:**
+
+![Projeto Prova1-DIW em funcionamento](docs/demonstracoes/prova1-diw.png)
+
+> O repositório [Site-IENT](https://github.com/MatheusLages/Site-IENT) contém atualmente apenas o README, sem código executável publicado. Por isso, não há captura de sua execução nesta documentação.
+
+## Protótipos / wireframes de média fidelidade
+
+Foram criados wireframes vetoriais em formato SVG, com versões para computador e celular, representando as principais seções do portfólio. Os arquivos podem ser importados no Figma.
+
+| Início — desktop | Início — mobile |
+| --- | --- |
+| ![Wireframe da página inicial no desktop](docs/wireframes/inicio-desktop.svg) | <img src="docs/wireframes/inicio-mobile.svg" alt="Wireframe da página inicial no celular" width="220"> |
+
+| Seção | Desktop | Mobile |
+| --- | --- | --- |
+| Início | [Visualizar](docs/wireframes/inicio-desktop.svg) | [Visualizar](docs/wireframes/inicio-mobile.svg) |
+| Sobre Mim | [Visualizar](docs/wireframes/sobre-desktop.svg) | [Visualizar](docs/wireframes/sobre-mobile.svg) |
+| Projetos | [Visualizar](docs/wireframes/projetos-desktop.svg) | [Visualizar](docs/wireframes/projetos-mobile.svg) |
+| Contato | [Visualizar](docs/wireframes/contato-desktop.svg) | [Visualizar](docs/wireframes/contato-mobile.svg) |
+
+**Figma:** os SVGs ainda precisam ser importados e salvos em um arquivo da conta Figma para concluir formalmente o requisito de prototipação no Figma. A criação desse arquivo não foi autorizada na integração disponível.
+
+## Capturas automatizadas
+
+O workflow [Gerar demonstrações reais](.github/workflows/capturar-demonstracoes.yml) usa o Playwright/Chromium em GitHub Actions para produzir capturas reais do portfólio e do repositório Prova1-DIW, mantendo os arquivos de imagem versionados em `docs/demonstracoes/`. O Playwright é uma dependência da automação de documentação, não da execução do site.
 
 ## Projetos apresentados
 
 - [Site-IENT](https://github.com/MatheusLages/Site-IENT)
 - [Prova1-DIW](https://github.com/MatheusLages/Prova1-DIW)
-- Este Portfólio Profissional
+- [Este Portfólio Profissional](https://github.com/MatheusLages/Portifolio-Profissional)
 
 ## Publicação
 
