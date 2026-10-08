@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio profissional de Matheus Lages, estudante de Ciência da Computação, com interesse em tecnologia, games e esportes.">
+    <title>Portfólio Profissional - Matheus Lages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="ceu-estrelado"></canvas>
+    <div class="overlay"></div>
+
+    <header class="cabecalho" id="inicio">
+        <div class="container cabecalho-conteudo">
+            <a href="#inicio" class="logo">MATHEUS LAGES<span>.</span></a>
+
+            <button class="botao-menu" id="botaoMenu" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="menu" id="menu">
+                <a href="#sobre">Sobre</a>
+                <a href="#areas">Áreas</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#experiencias">Experiências</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero secao">
+            <div class="container hero-grid">
+                <div class="hero-texto">
+                    <p class="tag">Tecnologia • Games • Esportes</p>
+                    <h1>Portfólio Profissional<br>Matheus Lages</h1>
+                    <p class="descricao">
+                        Estudante de Ciência da Computação na PUC Minas, interessado em tecnologia,
+                        desenvolvimento web e projetos que conectam criatividade, comunicação e inovação.
+                    </p>
+
+                    <div class="hero-botoes">
+                        <a href="#projetos" class="botao destaque">Ver projetos</a>
+                        <a href="#contato" class="botao botao-secundario">Entrar em contato</a>
+                    </div>
+                </div>
+
+                <div class="hero-foto">
+                    <div class="moldura-foto brilho">
+                        <img src="assets/foto-principal.jpg" alt="Matheus Lages">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao" id="sobre">
+            <div class="container">
+                <div class="titulo-secao">
+                    <span>Sobre Mim</span>
+                    <h2>Quem sou eu ?</h2>
+                </div>
+
+                <div class="idiomas">
+                    <button class="idioma-ativo" data-idioma="pt">Português</button>
+                    <button data-idioma="en">English</button>
+                </div>
+
+                <div class="sobre-grid">
+                    <div class="cartao texto-sobre">
+                        <div class="conteudo-idioma" data-conteudo="pt">
+                            <p>
+                                Olá! Meu nome é Matheus Lages. Concluí o Ensino Médio no Colégio Novos Tempos
+                                e atualmente curso o 2º período de Ciência da Computação na PUC Minas.
+                            </p>
+                            <p>
+                                Tenho interesse em tecnologia, desenvolvimento web, games e esportes. Busco ampliar
+                                meus conhecimentos por meio de projetos acadêmicos e práticos, sempre procurando unir
+                                organização, criatividade e funcionalidade.
+                            </p>
+                            <p>
+                                Também atuo no Colégio Novos Tempos, participando das áreas de Comunicação, Marketing
+                                e Esportes e de Tecnologia da Informação, experiências que me permitem trabalhar com
+                                diferentes demandas e desenvolver habilidades técnicas e de comunicação.
+                            </p>
+                        </div>
+
+                        <div class="conteudo-idioma escondido" data-conteudo="en">
+                            <p>
+                                Hello! My name is Matheus Lages. I completed high school at Colégio Novos Tempos
+                                and I am currently in the second semester of Computer Science at PUC Minas.
+                            </p>
+                            <p>
+                                I am interested in technology, web development, gaming and sports. I seek to expand
+                                my knowledge through academic and practical projects, combining organization,
+                                creativity and functionality.
+                            </p>
+                            <p>
+                                I also work at Colégio Novos Tempos in Communication, Marketing and Sports and in
+                                Information Technology, which allows me to develop both technical and communication skills.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cartao cartao-perfil">
+                        <img src="assets/foto-secundaria.jpeg" alt="Matheus Lages">
+                        <div class="info-perfil">
+                            <h3>Perfil</h3>
+                            <ul>
+                                <li><strong>Nome:</strong> Matheus Lages</li>
+                                <li><strong>Formação:</strong> Ciência da Computação — PUC Minas</li>
+                                <li><strong>Período:</strong> 2º período</li>
+                                <li><strong>Interesses:</strong> Tecnologia, games e esportes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao" id="areas">
+            <div class="container">
+                <div class="titulo-secao">
+                    <span>Áreas de Interesse</span>
+                    <h2>Tecnologia, games e esportes</h2>
+                </div>
+
+                <div class="cards-areas">
+                    <article class="cartao area-card">
+                        <div class="icone-area">&lt;/&gt;</div>
+                        <h3>Tecnologia</h3>
+                        <p>Interesse em desenvolvimento web, programação, inovação e soluções digitais aplicadas a problemas reais.</p>
+                    </article>
+
+                    <article class="cartao area-card">
+                        <div class="icone-area">🎮</div>
+                        <h3>Games</h3>
+                        <p>Interesse pelo universo dos jogos, pela tecnologia envolvida em sua criação e pelas experiências interativas.</p>
+                    </article>
+
+                    <article class="cartao area-card">
+                        <div class="icone-area">🏆</div>
+                        <h3>Esportes</h3>
+                        <p>Vivência com comunicação e organização esportiva, além de interesse por competição, disciplina e trabalho em equipe.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao" id="projetos">
+            <div class="container">
+                <div class="titulo-secao">
+                    <span>Projetos</span>
+                    <h2>Projetos publicados no GitHub</h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item cartao destaque-borda">
+                        <span class="ano">Projeto Web</span>
+                        <h3>Site-IENT</h3>
+                        <p>Projeto de site institucional voltado ao Colégio Novos Tempos, reunindo conteúdo e estrutura para presença digital da instituição.</p>
+                        <a href="https://github.com/MatheusLages/Site-IENT" target="_blank" rel="noopener noreferrer" class="link-projeto">Ver no GitHub</a>
+                    </article>
+
+                    <article class="timeline-item cartao">
+                        <span class="ano">DIW</span>
+                        <h3>Prova1-DIW</h3>
+                        <p>Repositório desenvolvido para a primeira avaliação da disciplina de Desenvolvimento de Interfaces Web, com arquivos em HTML e CSS e respostas da atividade.</p>
+                        <a href="https://github.com/MatheusLages/Prova1-DIW" target="_blank" rel="noopener noreferrer" class="link-projeto">Ver no GitHub</a>
+                    </article>
+
+                    <article class="timeline-item cartao">
+                        <span class="ano">Portfólio</span>
+                        <h3>Portfólio Profissional</h3>
+                        <p>Projeto pessoal desenvolvido para apresentar formação, experiências, projetos e contatos em uma interface interativa inspirada em tecnologia, games e esportes.</p>
+                        <a href="https://github.com/MatheusLages" target="_blank" rel="noopener noreferrer" class="link-projeto">Acessar meu GitHub</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao" id="experiencias">
+            <div class="container">
+                <div class="titulo-secao">
+                    <span>Experiências</span>
+                    <h2>Experiência profissional e acadêmica</h2>
+                </div>
+
+                <div class="experiencias-grid">
+                    <article class="cartao experiencia-card">
+                        <h3>Colégio Novos Tempos</h3>
+                        <p><strong>Área:</strong> Comunicação, Marketing e Esportes</p>
+                        <p>Atuação em atividades relacionadas à comunicação institucional, produção e organização de conteúdos, divulgação de ações e apoio a eventos e atividades esportivas do colégio.</p>
+                    </article>
+
+                    <article class="cartao experiencia-card">
+                        <h3>Colégio Novos Tempos</h3>
+                        <p><strong>Área:</strong> Tecnologia da Informação</p>
+                        <p>Participação em demandas de tecnologia da instituição, oferecendo apoio em atividades técnicas e contribuindo para soluções digitais e projetos ligados ao ambiente escolar.</p>
+                    </article>
+
+                    <article class="cartao experiencia-card">
+                        <h3>Projetos Desenvolvidos</h3>
+                        <p><strong>Destaques:</strong> Site-IENT e Prova1-DIW</p>
+                        <p>Desenvolvimento de projetos acadêmicos e práticos que reforçam conhecimentos em interfaces web, organização visual e construção de páginas funcionais.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao" id="contato">
+            <div class="container contato-grid">
+                <div>
+                    <div class="titulo-secao alinhado-esquerda">
+                        <span>Contato</span>
+                        <h2>Vamos conversar</h2>
+                    </div>
+
+                    <p class="descricao-contato">Entre em contato pelos canais abaixo.</p>
+
+                    <div class="lista-contatos">
+                        <a href="mailto:matheus.araujo.1640915@sga.pucminas.br">E-mail</a>
+                        <a href="https://github.com/MatheusLages" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://www.linkedin.com/in/matheus-lages-232a50416/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </div>
+                </div>
+
+                <form class="cartao formulario" id="formContato">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="6" placeholder="Digite sua mensagem"></textarea>
+
+                    <button type="submit" class="botao destaque">Enviar mensagem</button>
+                    <p id="mensagemForm" class="mensagem-formulario"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>© 2026 Matheus Lages. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
