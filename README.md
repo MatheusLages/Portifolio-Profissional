@@ -115,7 +115,7 @@ Foram criados wireframes vetoriais em formato SVG, com versões para computador 
 | Projetos | [Visualizar](docs/wireframes/projetos-desktop.svg) | [Visualizar](docs/wireframes/projetos-mobile.svg) |
 | Contato | [Visualizar](docs/wireframes/contato-desktop.svg) | [Visualizar](docs/wireframes/contato-mobile.svg) |
 
-**Figma:** os SVGs ainda precisam ser importados e salvos em um arquivo da conta Figma para concluir formalmente o requisito de prototipação no Figma. A criação desse arquivo não foi autorizada na integração disponível.
+**Arquivo de protótipos no Figma:** [LAB01 — Portfólio Matheus Lages: Wireframes (8 telas editáveis)](https://www.figma.com/design/8ML1NpZPMT5cdK3bW8tUlg). Os wireframes desktop e mobile foram criados como frames com textos e formas editáveis. Os arquivos SVG acima permanecem disponíveis como imagens de referência no README.
 
 ## Capturas automatizadas
 
