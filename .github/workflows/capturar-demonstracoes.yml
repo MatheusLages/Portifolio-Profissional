@@ -7,6 +7,8 @@ on:
       - 'README.md'
       - 'docs/wireframes/**'
       - 'docs/demonstracoes/**'
+      - '.github/workflows/capturar-demonstracoes.yml'
+      - '.github/workflows/padronizar-historico.yml'
   workflow_dispatch:
 permissions:
   contents: write
@@ -34,6 +36,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/demonstracoes
           if ! git diff --cached --quiet; then
-            git commit -m "docs: adiciona capturas reais dos projetos"
+            git commit -m "Add files via upload"
             git push origin HEAD:main
           fi
