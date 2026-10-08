@@ -75,6 +75,76 @@ if (formContato) {
     });
 }
 
+
+// Linha do tempo gerada com JavaScript, mantendo os cartões originais como fallback.
+// Para acrescentar um projeto, adicione outro objeto neste vetor.
+const projetosPortfolio = [
+    {
+        ordem: 1,
+        categoria: 'Projeto Web',
+        titulo: 'Site-IENT',
+        descricao: 'Projeto de site institucional voltado ao Colégio Novos Tempos, reunindo conteúdo e estrutura para presença digital da instituição.',
+        tecnologias: 'Não especificadas no repositório',
+        url: 'https://github.com/MatheusLages/Site-IENT',
+        linkTexto: 'Ver no GitHub',
+        destaque: true
+    },
+    {
+        ordem: 2,
+        categoria: 'DIW',
+        titulo: 'Prova1-DIW',
+        descricao: 'Repositório desenvolvido para a primeira avaliação da disciplina de Desenvolvimento de Interfaces Web, com arquivos em HTML e CSS e respostas da atividade.',
+        tecnologias: 'HTML5 e CSS3',
+        url: 'https://github.com/MatheusLages/Prova1-DIW',
+        linkTexto: 'Ver no GitHub'
+    },
+    {
+        ordem: 3,
+        categoria: 'Portfólio',
+        titulo: 'Portfólio Profissional',
+        descricao: 'Projeto pessoal desenvolvido para apresentar formação, experiências, projetos e contatos em uma interface interativa inspirada em tecnologia, games e esportes.',
+        tecnologias: 'HTML5, CSS3, JavaScript e Canvas API',
+        url: 'https://github.com/MatheusLages/Portifolio-Profissional',
+        linkTexto: 'Ver repositório'
+    }
+];
+
+function criarCartaoProjeto(projeto) {
+    const artigo = document.createElement('article');
+    artigo.className = 'timeline-item cartao' + (projeto.destaque ? ' destaque-borda' : '');
+
+    const categoria = document.createElement('span');
+    categoria.className = 'ano';
+    categoria.textContent = projeto.categoria;
+
+    const titulo = document.createElement('h3');
+    titulo.textContent = projeto.titulo;
+
+    const descricao = document.createElement('p');
+    descricao.textContent = projeto.descricao;
+
+    const tecnologias = document.createElement('p');
+    const rotulo = document.createElement('strong');
+    rotulo.textContent = 'Tecnologias: ';
+    tecnologias.append(rotulo, document.createTextNode(projeto.tecnologias));
+
+    const link = document.createElement('a');
+    link.href = projeto.url;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.className = 'link-projeto';
+    link.textContent = projeto.linkTexto;
+
+    artigo.append(categoria, titulo, descricao, tecnologias, link);
+    return artigo;
+}
+
+const timelineProjetos = document.getElementById('timelineProjetos');
+if (timelineProjetos) {
+    const projetosOrdenados = [...projetosPortfolio].sort((a, b) => a.ordem - b.ordem);
+    timelineProjetos.replaceChildren(...projetosOrdenados.map(criarCartaoProjeto));
+}
+
 const canvas = document.getElementById('ceu-estrelado');
 const contexto = canvas.getContext('2d');
 
