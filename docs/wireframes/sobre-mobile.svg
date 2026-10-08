@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="780" viewBox="0 0 390 780" role="img" aria-label="Wireframe sobre mobile">
+<rect x="0" y="0" width="390" height="780" rx="0" fill="#071125" stroke="#071125"/>
+<rect x="0" y="0" width="390" height="66" rx="0" fill="#0c1c36" stroke="#1e3a5f"/>
+<text x="22" y="41" font-family="Arial, sans-serif" font-size="17" fill="#fff" font-weight="700">MATHEUS LAGES.</text>
+<text x="342" y="40" font-family="Arial, sans-serif" font-size="25" fill="#facc15" font-weight="700">☰</text>
+<text x="24" y="763" font-family="Arial, sans-serif" font-size="10" fill="#8faacc" font-weight="700">WIREFRAME · SOBRE · MOBILE · MÉDIA FIDELIDADE</text>
+<text x="25" y="118" font-family="Arial, sans-serif" font-size="14" fill="#facc15" font-weight="700">SOBRE MIM</text>
+<text x="25" y="165" font-family="Arial, sans-serif" font-size="30" fill="#fff" font-weight="700">Quem sou eu?</text>
+<rect x="25" y="185" width="340" height="44" rx="13" fill="#102449" stroke="#294875"/>
+<text x="42" y="213" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe" font-weight="400">Português     English</text>
+<rect x="25" y="248" width="340" height="228" rx="13" fill="#102449" stroke="#294875"/>
+<rect x="44" y="282" width="280" height="9" rx="4.5" fill="#365379"/>
+<rect x="44" y="307" width="295" height="9" rx="4.5" fill="#365379"/>
+<rect x="44" y="332" width="262" height="9" rx="4.5" fill="#365379"/>
+<rect x="44" y="368" width="288" height="9" rx="4.5" fill="#365379"/>
+<rect x="44" y="393" width="252" height="9" rx="4.5" fill="#365379"/>
+<rect x="44" y="418" width="274" height="9" rx="4.5" fill="#365379"/>
+<rect x="25" y="494" width="340" height="222" rx="13" fill="#152948" stroke="#294875"/>
+<rect x="42" y="510" width="306" height="125" rx="13" fill="#3e5874" stroke="#294875"/>
+<text x="130" y="578" font-family="Arial, sans-serif" font-size="13" fill="#fff" font-weight="400">FOTO SECUNDÁRIA</text>
+<text x="48" y="668" font-family="Arial, sans-serif" font-size="13" fill="#dbeafe" font-weight="400">PERFIL · PUC MINAS · TI</text>
+</svg>

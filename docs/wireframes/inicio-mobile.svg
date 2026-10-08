@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="780" viewBox="0 0 390 780" role="img" aria-label="Wireframe inicio mobile">
+<rect x="0" y="0" width="390" height="780" rx="0" fill="#071125" stroke="#071125"/>
+<rect x="0" y="0" width="390" height="66" rx="0" fill="#0c1c36" stroke="#1e3a5f"/>
+<text x="22" y="41" font-family="Arial, sans-serif" font-size="17" fill="#fff" font-weight="700">MATHEUS LAGES.</text>
+<text x="342" y="40" font-family="Arial, sans-serif" font-size="25" fill="#facc15" font-weight="700">☰</text>
+<text x="24" y="763" font-family="Arial, sans-serif" font-size="10" fill="#8faacc" font-weight="700">WIREFRAME · INICIO · MOBILE · MÉDIA FIDELIDADE</text>
+<text x="23" y="112" font-family="Arial, sans-serif" font-size="13" fill="#facc15" font-weight="700">TECNOLOGIA · GAMES · ESPORTES</text>
+<text x="26" y="165" font-family="Arial, sans-serif" font-size="30" fill="#fff" font-weight="700">Portfólio</text>
+<text x="26" y="204" font-family="Arial, sans-serif" font-size="30" fill="#fff" font-weight="700">Profissional</text>
+<text x="26" y="245" font-family="Arial, sans-serif" font-size="22" fill="#e2e8f0" font-weight="400">Matheus Lages</text>
+<rect x="26" y="275" width="312" height="9" rx="4.5" fill="#365379"/>
+<rect x="26" y="296" width="280" height="9" rx="4.5" fill="#365379"/>
+<rect x="26" y="317" width="305" height="9" rx="4.5" fill="#365379"/>
+<rect x="26" y="349" width="146" height="45" rx="11" fill="#1d4ed8" stroke="#3b82f6"/><text x="43" y="378" font-family="Arial, sans-serif" font-size="16" fill="#fff" font-weight="700">Ver projetos</text>
+<rect x="184" y="349" width="175" height="45" rx="13" fill="#13294b" stroke="#294875"/>
+<text x="197" y="378" font-family="Arial, sans-serif" font-size="14" fill="#dbeafe" font-weight="400">Entrar em contato</text>
+<rect x="54" y="420" width="282" height="295" rx="20" fill="#193559" stroke="#3d6290"/>
+<rect x="78" y="444" width="234" height="246" rx="14" fill="#385273" stroke="#9cacc4"/>
+<text x="136" y="579" font-family="Arial, sans-serif" font-size="15" fill="#fff" font-weight="700">FOTO PRINCIPAL</text>
+</svg>
