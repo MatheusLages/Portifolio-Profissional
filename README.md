@@ -28,7 +28,7 @@ O site apresenta minha formação acadêmica, áreas de interesse, projetos dese
 | JavaScript | Interatividade, validação e animação das estrelas |
 | Canvas API | Desenho do céu estrelado |
 | Git / GitHub | Versionamento e repositório |
-| GitHub Pages | Hospedagem estática (prevista) |
+| GitHub Pages | Hospedagem gratuita do portfólio |
 
 **Bibliotecas e dependências:** nenhuma. O projeto utiliza apenas recursos nativos do navegador. Não há instalação de pacotes nem banco de dados.
 
@@ -67,7 +67,9 @@ Não são necessárias variáveis de ambiente, bibliotecas, frameworks ou instal
 
 ## Demonstração
 
-A demonstração do portfólio ficará disponível no link do GitHub Pages após a publicação. Capturas de tela e GIFs dos projetos apresentados podem ser acrescentados posteriormente, conforme solicitado no laboratório.
+**Portfólio online:** [Acessar o site](https://matheuslages.github.io/Portifolio-Profissional/)
+
+Capturas de tela e GIFs dos demais projetos apresentados poderão ser acrescentados à documentação, conforme solicitado no laboratório.
 
 ## Projetos apresentados
 
@@ -77,15 +79,13 @@ A demonstração do portfólio ficará disponível no link do GitHub Pages após
 
 ## Publicação
 
-**Status:** publicação pendente de ativação do GitHub Pages.
+**Status:** publicação realizada via GitHub Pages (execução de publicação concluída com sucesso).
 
-**Repositório planejado:** `https://github.com/MatheusLages/Portifolio-Profissional`
+**Repositório:** [MatheusLages/Portifolio-Profissional](https://github.com/MatheusLages/Portifolio-Profissional)
 
-**URL esperada após publicar:** `https://matheuslages.github.io/Portifolio-Profissional/`
+**Site publicado:** [https://matheuslages.github.io/Portifolio-Profissional/](https://matheuslages.github.io/Portifolio-Profissional/)
 
-Para publicar, abra **Settings > Pages** no repositório, selecione **Deploy from a branch**, escolha `main` e a pasta `/ (root)`, e salve.
-
-Quando o GitHub Pages confirmar o endereço público, atualize a informação de status e este link na documentação.
+**Hospedagem:** GitHub Pages, com origem na branch `main` e pasta `/ (root)`. Atualizações nessa branch geram novas publicações.
 
 ## Autor
 
