@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Wireframe inicio desktop">
+<rect x="0" y="0" width="1200" height="720" rx="0" fill="#071125" stroke="#071125"/>
+<rect x="0" y="0" width="1200" height="78" rx="0" fill="#0c1c36" stroke="#1e3a5f"/>
+<text x="48" y="47" font-family="Arial, sans-serif" font-size="22" fill="#fff" font-weight="700">MATHEUS LAGES.</text>
+<text x="640" y="46" font-family="Arial, sans-serif" font-size="16" fill="#d1d5db" font-weight="400">Sobre    Áreas    Projetos    Experiências    Contato</text>
+<text x="24" y="703" font-family="Arial, sans-serif" font-size="12" fill="#8faacc" font-weight="700">WIREFRAME · INICIO · DESKTOP · MÉDIA FIDELIDADE</text>
+<text x="61" y="189" font-family="Arial, sans-serif" font-size="16" fill="#facc15" font-weight="700">TECNOLOGIA · GAMES · ESPORTES</text>
+<text x="61" y="257" font-family="Arial, sans-serif" font-size="30" fill="#fff" font-weight="700">Portfólio Profissional</text>
+<text x="61" y="302" font-family="Arial, sans-serif" font-size="28" fill="#dbeafe" font-weight="400">Matheus Lages</text>
+<rect x="61" y="336" width="481" height="9" rx="4.5" fill="#365379"/>
+<rect x="61" y="363" width="432" height="9" rx="4.5" fill="#365379"/>
+<rect x="61" y="390" width="467" height="9" rx="4.5" fill="#365379"/>
+<rect x="61" y="438" width="174" height="45" rx="11" fill="#1d4ed8" stroke="#3b82f6"/><text x="78" y="467" font-family="Arial, sans-serif" font-size="16" fill="#fff" font-weight="700">Ver projetos</text>
+<rect x="247" y="438" width="195" height="45" rx="13" fill="#152848" stroke="#294875"/>
+<text x="263" y="468" font-family="Arial, sans-serif" font-size="17" fill="#dbeafe" font-weight="400">Entrar em contato</text>
+<rect x="737" y="116" width="392" height="520" rx="22" fill="#14284a" stroke="#4674a6"/>
+<rect x="752" y="131" width="362" height="489" rx="17" fill="#385273" stroke="#8faacc"/>
+<text x="864" y="392" font-family="Arial, sans-serif" font-size="22" fill="#fff" font-weight="700">FOTO PRINCIPAL</text>
+</svg>
