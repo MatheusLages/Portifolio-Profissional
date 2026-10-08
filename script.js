@@ -95,6 +95,8 @@ const projetosPortfolio = [
         titulo: 'Prova1-DIW',
         descricao: 'Repositório desenvolvido para a primeira avaliação da disciplina de Desenvolvimento de Interfaces Web, com arquivos em HTML e CSS e respostas da atividade.',
         tecnologias: 'HTML5 e CSS3',
+        imagem: 'docs/demonstracoes/prova1-diw.png',
+        imagemAlt: 'Captura real da página Meu Perfil do projeto Prova1-DIW',
         url: 'https://github.com/MatheusLages/Prova1-DIW',
         linkTexto: 'Ver no GitHub'
     },
@@ -104,6 +106,8 @@ const projetosPortfolio = [
         titulo: 'Portfólio Profissional',
         descricao: 'Projeto pessoal desenvolvido para apresentar formação, experiências, projetos e contatos em uma interface interativa inspirada em tecnologia, games e esportes.',
         tecnologias: 'HTML5, CSS3, JavaScript e Canvas API',
+        imagem: 'docs/demonstracoes/portfolio-projetos.png',
+        imagemAlt: 'Captura real da seção de projetos do portfólio',
         url: 'https://github.com/MatheusLages/Portifolio-Profissional',
         linkTexto: 'Ver repositório'
     }
@@ -135,7 +139,16 @@ function criarCartaoProjeto(projeto) {
     link.className = 'link-projeto';
     link.textContent = projeto.linkTexto;
 
-    artigo.append(categoria, titulo, descricao, tecnologias, link);
+    artigo.append(categoria, titulo, descricao, tecnologias);
+    if (projeto.imagem) {
+        const imagem = document.createElement('img');
+        imagem.src = projeto.imagem;
+        imagem.alt = projeto.imagemAlt;
+        imagem.className = 'imagem-projeto';
+        imagem.loading = 'lazy';
+        artigo.appendChild(imagem);
+    }
+    artigo.appendChild(link);
     return artigo;
 }
 
