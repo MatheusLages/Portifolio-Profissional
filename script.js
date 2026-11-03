@@ -110,6 +110,33 @@ const projetosPortfolio = [
         imagemAlt: 'Captura real da seção de projetos do portfólio',
         url: 'https://github.com/MatheusLages/Portifolio-Profissional',
         linkTexto: 'Ver repositório'
+    },
+    {
+        ordem: 4,
+        categoria: 'Projeto Web',
+        titulo: 'Homenagem aos Professores — Novos Tempos',
+        descricao: 'Site de homenagem ao Dia dos Professores do Colégio Novos Tempos, com uma linha do tempo de 90 fotografias, narração em áudio, vídeo e navegação entre fotos.',
+        tecnologias: 'HTML5, CSS3 e JavaScript',
+        url: 'https://github.com/MatheusLages/Homenagem-Professores-Novos-Tempos',
+        linkTexto: 'Ver no GitHub'
+    },
+    {
+        ordem: 5,
+        categoria: 'Aplicação Web',
+        titulo: 'Pokédex',
+        descricao: 'Catálogo responsivo de 32 Pokémon de Kanto, com pesquisa por nome ou número, filtros por tipo, ordenação, detalhes e favoritos persistidos com JSON Server.',
+        tecnologias: 'HTML5, CSS3, JavaScript, Bootstrap e JSON Server',
+        url: 'https://github.com/MatheusLages/Pokedex',
+        linkTexto: 'Ver no GitHub'
+    },
+    {
+        ordem: 6,
+        categoria: 'DIW — LAB02',
+        titulo: 'Lages Cars — Sistema de Aluguel de Carros',
+        descricao: 'Protótipo acadêmico para aluguel de carros, com cadastro e login, catálogo de veículos, pedidos, avaliação financeira por empresas e bancos, contratos e crédito opcional.',
+        tecnologias: 'HTML5, CSS3, JavaScript, Bootstrap, Node.js e JSON Server',
+        url: 'https://github.com/MatheusLages/SistemaAlugueldeCarros',
+        linkTexto: 'Ver no GitHub'
     }
 ];
 

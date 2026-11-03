@@ -58,9 +58,6 @@ Portifolio-Profissional/
 │       ├── sobre-desktop.svg, sobre-mobile.svg
 │       ├── projetos-desktop.svg, projetos-mobile.svg
 │       └── contato-desktop.svg, contato-mobile.svg
-├── .github/
-│   ├── scripts/capturar-demonstracoes.cjs
-│   └── workflows/capturar-demonstracoes.yml
 └── README.md
 ```
 
@@ -117,15 +114,20 @@ Foram criados wireframes vetoriais em formato SVG, com versões para computador 
 
 **Arquivo de protótipos no Figma:** [LAB01 — Portfólio Matheus Lages: Wireframes (8 telas editáveis)](https://www.figma.com/design/8ML1NpZPMT5cdK3bW8tUlg). Os wireframes desktop e mobile foram criados como frames com textos e formas editáveis. Os arquivos SVG acima permanecem disponíveis como imagens de referência no README.
 
-## Capturas automatizadas
+## Capturas de demonstração
 
-O workflow [Gerar demonstrações reais](.github/workflows/capturar-demonstracoes.yml) usa o Playwright/Chromium em GitHub Actions para produzir capturas reais do portfólio e do repositório Prova1-DIW, mantendo os arquivos de imagem versionados em `docs/demonstracoes/`. O Playwright é uma dependência da automação de documentação, não da execução do site.
+As capturas existentes estão versionadas em `docs/demonstracoes/` e registram uma versão anterior à inclusão dos novos projetos. O repositório não contém pasta `.github` nem workflow para atualizar essas imagens.
 
 ## Projetos apresentados
 
 - [Site-IENT](https://github.com/MatheusLages/Site-IENT)
 - [Prova1-DIW](https://github.com/MatheusLages/Prova1-DIW)
 - [Este Portfólio Profissional](https://github.com/MatheusLages/Portifolio-Profissional)
+- [Homenagem aos Professores — Novos Tempos](https://github.com/MatheusLages/Homenagem-Professores-Novos-Tempos) — Site de homenagem ao Dia dos Professores do Colégio Novos Tempos, com uma linha do tempo de 90 fotografias, narração em áudio, vídeo e navegação entre fotos. Tecnologias: HTML5, CSS3 e JavaScript.
+- [Pokédex](https://github.com/MatheusLages/Pokedex) — Catálogo responsivo de 32 Pokémon de Kanto, com pesquisa por nome ou número, filtros por tipo, ordenação, detalhes e favoritos persistidos com JSON Server. Tecnologias: HTML5, CSS3, JavaScript, Bootstrap e JSON Server.
+- [Lages Cars — Sistema de Aluguel de Carros](https://github.com/MatheusLages/SistemaAlugueldeCarros) — Protótipo acadêmico para aluguel de carros, com cadastro e login, catálogo de veículos, pedidos, avaliação financeira por empresas e bancos, contratos e crédito opcional. Tecnologias: HTML5, CSS3, JavaScript, Bootstrap, Node.js e JSON Server.
+
+A timeline é construída a partir do vetor `projetosPortfolio` em `script.js`, em ordem crescente do campo `ordem`. Para incluir outro projeto, acrescente um objeto com categoria, título, descrição, tecnologias, URL e texto do link; a imagem é opcional. A lista é mantida manualmente e não consulta a API do GitHub durante a navegação.
 
 ## Publicação
 
